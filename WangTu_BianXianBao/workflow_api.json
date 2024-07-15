@@ -1,0 +1,63 @@
+{
+  "10": {
+    "inputs": {
+      "image": "013a6f5c00e229a801209252dbb93a.jpg@1280w_1l_2o_100sh (2) (2).jpg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "11": {
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "skin_retouch",
+    "_meta": {
+      "title": "skin_retouch"
+    }
+  },
+  "12": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "14": {
+    "inputs": {
+      "app_title": "这是默认作品标题，请在comfyui中修改",
+      "app_desc": "这是默认功能介绍，请在comfyui中修改",
+      "app_fee": 10,
+      "custom_img1_desc": "请上传图片",
+      "custom_img2_desc": "请上传图片",
+      "custom_img3_desc": "请上传图片",
+      "custom_text1_desc": "请输入文本",
+      "custom_text2_desc": "请输入文本",
+      "custom_text3_desc": "请输入文本",
+      "uniqueid": "ly6y6umsc33tdosqctjodrs8mx",
+      "app_img1(optional)": [
+        "10",
+        0
+      ],
+      "custom_img1(optional)": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "sdBxb",
+    "_meta": {
+      "title": "sdBxb"
+    }
+  }
+}
